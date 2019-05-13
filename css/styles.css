@@ -1,0 +1,157 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+    margin: 25px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 150%;
+    background: #fff;
+}
+
+
+img {
+    border: none;
+}
+
+/* Header 
+***************************/
+
+header {
+    padding: 0px;
+    margin: 30px auto;
+    background: #fff;
+    min-height: 200px;
+    padding: 30px 0;
+    border-bottom: 1px solid #E8E8E8;
+}
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    margin: 30px 0;
+}
+
+h2 {
+    text-transform: uppercase;
+}
+
+h3 {
+    margin: 30px 0;
+}
+
+h3, h4 {
+    padding: 0;
+}
+
+.profile-pic {
+    width: 150px;
+    border-radius: 50%;
+    margin: 30px;
+    float: right;
+}
+
+/* Navigation 
+***************************/
+
+
+/* Main
+***************************/
+
+main {
+
+}
+
+
+
+.content-wrap {
+    display: flex;
+    flex-direction: column;
+}
+
+
+ul {
+    list-style-type: square;
+}
+
+.org-logo{
+    width: 85px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+
+.small-col {
+    width: 100%;
+}
+
+.large-col {
+    width: 100%;
+    min-height: 175px;
+}
+
+.org-name {
+    font-size: 1.2em;
+    margin: 30px 0;
+    color: lightgray;
+}
+
+.dates {
+    margin: 0;
+    color: lightgray;
+    float: right;
+    font-weight: normal;
+}
+
+.tech-badge {
+    width: 100px;
+}
+
+@media screen and (min-width: 900px) {
+    .content-wrap {
+        max-width: 1100px;
+        padding: 20px;
+        margin: 0 auto;
+        clear: left;
+        overflow: hidden;
+        display: block;
+    }
+
+    ul{
+        margin: 0 20px 10px 20px;
+    }
+
+    .small-col {
+        width: 20%;
+        float: left;
+    }
+    
+    .large-col {
+        width: 60%;
+        float: left;
+        min-height: 175px;
+    }
+
+    .center-col {
+    text-align: center;
+    }
+}
+
+/* Footer
+***************************/
+
+footer {
+    text-align: center;
+    margin: 50px auto;
+    padding: 30px 0;
+    border-top: 1px solid #E8E8E8;
+    background: #fff;
+}
+
+.social-icons {
+    width: 35px;
+    border-radius: 5px;
+    margin: 0px 2px;
+}
