@@ -37,6 +37,7 @@ header .content-wrap {
 h1 {
     font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
+    padding: 5px;
 }
 
 h2 {
