@@ -6,12 +6,15 @@ html {
 }
 
 body {
-    margin: 25px;
+    margin: 50px;
     font-family: 'Roboto', sans-serif;
     line-height: 150%;
     background: #fff;
 }
 
+a {
+    color: #666;
+}
 
 img {
     border: none;
@@ -28,10 +31,19 @@ header {
     padding: 30px;
 }
 
-header .content-wrap {
+header {
     background: #F8F8F8;
     border-radius: 10px;
-    padding: 30px;
+    padding: 15px;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 0 25px;
+}
+
+nav {
+    text-align: center;
 }
 
 h1 {
@@ -67,7 +79,7 @@ h4 {
 .content-wrap {
     display: flex;
     flex-direction: column;
-    padding: 30px;
+    padding: 15px 30px;
 }
 
 ul {
