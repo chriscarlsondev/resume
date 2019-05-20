@@ -27,6 +27,7 @@ header {
     padding: 0px;
     margin: 30px auto;
     min-height: 200px;
+    border-right: 1px solid #E8E8E8;
     border-bottom: 1px solid #E8E8E8;
     padding: 30px;
 }
