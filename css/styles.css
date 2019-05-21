@@ -1,8 +1,12 @@
 html {
-  box-sizing: border-box;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
 }
-*, *:before, *:after {
-  box-sizing: inherit;
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
 }
 
 body {
@@ -13,7 +17,7 @@ body {
 }
 
 a {
-    color: #666;
+    color: #0074E1;
 }
 
 img {
@@ -109,7 +113,7 @@ ul {
     list-style-type: square;
 }
 
-.org-logo{
+.org-logo {
     width: 70px;
     border-radius: 50%;
     margin: 0;
@@ -156,11 +160,11 @@ nav {
         display: block;
     }
 
-    .profile-pic{
+    .profile-pic {
         float: right;
     }
 
-    ul{
+    ul {
         margin: 0 20px 10px 20px;
     }
 
@@ -173,7 +177,7 @@ nav {
         float: left;
         width: 30%;
     }
-    
+
     .large-col {
         width: 70%;
         float: left;
