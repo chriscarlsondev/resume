@@ -35,7 +35,7 @@ header {
 header {
     background: #F8F8F8;
     border-radius: 10px;
-    padding: 15px;
+    padding: 30px;
 }
 
 nav ul li {
@@ -43,8 +43,19 @@ nav ul li {
     padding: 0 25px;
 }
 
+nav a {
+    text-decoration: none;
+}
+
+nav a:hover {
+    padding-bottom: 5px;
+    border-bottom: 3px solid #666;
+    border-radius: 3px;
+}
+
 nav {
     text-align: center;
+    text-transform: uppercase;
 }
 
 h1 {
@@ -78,6 +89,15 @@ h4 {
 /* Main
 ***************************/
 
+.screenshot {
+    padding: 10px;
+    margin-right: 20px;
+    border: 1px solid #E8E8E8;
+    float: left;
+    border-radius: 5px;
+    background: #F8F8F8;
+}   
+
 .content-wrap {
     display: flex;
     flex-direction: column;
@@ -89,7 +109,7 @@ ul {
 }
 
 .org-logo{
-    width: 85px;
+    width: 70px;
     border-radius: 50%;
     margin: 0;
 }
@@ -110,10 +130,19 @@ ul {
 }
 
 .tech-badge {
-    width: 100px;
+    width: 50px;
+}
+
+nav {
+    display: none;
 }
 
 @media screen and (min-width: 900px) {
+
+    nav {
+        display: block;
+    }
+
     .content-wrap {
         max-width: 1000px;
         margin: 0 auto;
@@ -142,7 +171,7 @@ ul {
     }
 
     .center-col {
-    text-align: center;
+        text-align: center;
     }
 }
 
