@@ -92,11 +92,12 @@ h4 {
 .screenshot {
     padding: 10px;
     margin-right: 20px;
-    border: 1px solid #E8E8E8;
-    float: left;
+    margin-bottom: 20px;
+    border-right: 3px solid #E8E8E8;
+    border-bottom: 3px solid #E8E8E8;
     border-radius: 5px;
     background: #F8F8F8;
-}   
+}
 
 .content-wrap {
     display: flex;
@@ -115,6 +116,10 @@ ul {
 }
 
 .small-col {
+    width: 100%;
+}
+
+.medium-col {
     width: 100%;
 }
 
@@ -162,6 +167,11 @@ nav {
     .small-col {
         width: 15%;
         float: left;
+    }
+
+    .medium-col {
+        float: left;
+        width: 30%;
     }
     
     .large-col {
