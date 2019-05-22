@@ -34,32 +34,26 @@ header {
     border-right: 1px solid #E8E8E8;
     border-bottom: 1px solid #E8E8E8;
     padding: 30px;
-}
-
-header {
+    display: flex;
+    flex-direction: column;
     background: #F8F8F8;
     border-radius: 10px;
     padding: 30px;
 }
 
-nav ul li {
-    display: inline-block;
-    padding: 0 25px;
-}
-
-nav a {
-    text-decoration: none;
-}
-
-nav a:hover {
-    padding-bottom: 5px;
-    border-bottom: 3px solid #666;
-    border-radius: 3px;
-}
 
 nav {
-    text-align: center;
     text-transform: uppercase;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: block;
+    padding: 10px 0;
 }
 
 h1 {
@@ -142,10 +136,6 @@ ul {
     width: 50px;
 }
 
-nav {
-    display: none;
-}
-
 @media screen and (min-width: 900px) {
 
     body {
@@ -155,6 +145,18 @@ nav {
     nav {
         display: block;
     }
+
+    nav a {
+        text-decoration: none;
+    }
+    
+    nav a:hover {
+        padding-bottom: 5px;
+        border-bottom: 3px solid #666;
+        border-radius: 3px;
+    }
+
+
 
     .content-wrap {
         max-width: 1000px;
@@ -170,6 +172,11 @@ nav {
 
     ul {
         margin: 0 20px 10px 20px;
+    }
+
+    nav ul li {
+        display: inline;
+        margin: 25px;
     }
 
     .small-col {
