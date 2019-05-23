@@ -86,6 +86,10 @@ h3 {
     padding: 5px 0 5px 0;
 }
 
+h4 {
+    font-weight: normal;
+}
+
 .profile-pic {
     width: 200px;
     float: right;
@@ -211,6 +215,7 @@ ul {
     .medium-col {
         float: left;
         width: 30%;
+        text-align: center;
     }
 
     .large-col {
