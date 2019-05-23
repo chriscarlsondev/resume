@@ -58,11 +58,6 @@ header {
     max-width: 1000px;
 }
 
-
-nav {
-    text-transform: uppercase;
-}
-
 nav ul {
     margin: 0;
     padding: 0;
@@ -241,4 +236,3 @@ footer {
     background: #fff;
     max-width: 1000px;
 }
-
