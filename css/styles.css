@@ -14,6 +14,7 @@ body {
     font-family: 'Muli', sans-serif;
     font-weight: 400;
     background: #fff;
+    line-height: 140%;
 }
 
 a {
@@ -59,7 +60,6 @@ nav ul li {
 
 h1 {
     font-family: 'Open Sans', sans-serif;
-    line-height: 150%;
 }
 
 h2 {
@@ -71,18 +71,12 @@ h3 {
     padding: 5px 0 5px 0;
 }
 
-h4 {
-    padding: 0;
-    margin: 0;
-    color: #696969;
-}
-
 .profile-pic {
     width: 150px;
-    border-radius: 50%;
-    margin: 0;
-    border: 1px solid #E8E8E8;
     float: right;
+    border-radius: 50%;
+    border: 1px solid #E8E8E8;
+    margin: 30px 0 30px 30px;
 }
 
 /* Main
@@ -158,8 +152,8 @@ ul {
     }
     
     nav a:hover {
-        padding-bottom: 5px;
-        border-bottom: 3px solid #666;
+        padding-bottom: 1px;
+        border-bottom: 2px solid #666;
     }
 
     .content-wrap {
@@ -178,14 +172,12 @@ ul {
         display: block;
     }
 
-    .profile-pic {
-        clear: right;
-        float: right;
-        margin: 30px 0 30px 30px;
+    ul {
+        margin: 10px 20px 10px 20px;
     }
 
-    ul {
-        margin: 0 20px 10px 20px;
+    ul li {
+        padding: 2px;
     }
 
     nav {
@@ -194,7 +186,8 @@ ul {
 
     nav ul li {
         display: inline;
-        margin: 25px;
+        margin: 5px 25px;
+        padding-top: 100px;
     }
 
     .small-col {
@@ -233,11 +226,11 @@ footer {
     max-width: 1000px;
     margin: 0;
     padding: 0;
+    float: right;
 }
 
 .social-icon {
     width: 30px;
     margin: 0px 2px;
     border-radius: 5px;
-    float: right;
 }
