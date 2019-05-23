@@ -10,7 +10,7 @@ html {
 }
 
 body {
-    margin: 0;
+    margin: 10px;
     font-family: 'Muli', sans-serif;
     font-weight: 400;
     background: #fff;
@@ -25,8 +25,23 @@ img {
     border: none;
 }
 
+
+.social-icons-group {
+    max-width: 1000px;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+.social-icon {
+    width: 30px;
+    margin: 0px 2px;
+    border-radius: 5px;
+}
+
 /* Header 
 ***************************/
+
 
 header {
     padding: 0px;
@@ -93,12 +108,12 @@ h3 {
 .content-wrap {
     display: flex;
     flex-direction: column;
-    padding: 15px 30px;
+    padding: 5px 5px;
     max-width: 1000px;
 }
 
 .content-no-wrap {
-    padding: 15px 30px;
+    padding: 5px 5px;
 }
 
 ul {
@@ -217,22 +232,9 @@ ul {
 ***************************/
 
 footer {
-    margin: 25px auto;
+    margin: 0 auto;
     padding: 30px 0;
     background: #fff;
     max-width: 1000px;
 }
 
-
-.social-icons-group {
-    max-width: 1000px;
-    margin: 0;
-    padding: 0;
-    float: right;
-}
-
-.social-icon {
-    width: 30px;
-    margin: 0px 2px;
-    border-radius: 5px;
-}
