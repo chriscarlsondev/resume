@@ -76,7 +76,6 @@ h3 {
     float: right;
     border-radius: 50%;
     border: 1px solid #E8E8E8;
-    margin: 30px 0 30px 30px;
 }
 
 /* Main
@@ -207,6 +206,10 @@ ul {
 
     .center-col {
         text-align: center;
+    }
+
+    .profile-pic {
+        margin: 30px 0 30px 30px;
     }
 }
 
