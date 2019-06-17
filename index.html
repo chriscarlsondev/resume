@@ -23,7 +23,7 @@
 		</p>
 	</div>
 	<header>
-		<div class="content-wrap">
+		<section id="Introduction" class="content-no-wrap">
 			<img src="./images/ChrisCarlson.jpg" class="profile-pic" alt="Christopher Carlson">
 			<h1>Hello.</h1>
 			<p>I'm Chris Carlson, a web developer and tech educator from Madison, Wisconsin. I am interested in
@@ -36,7 +36,7 @@
 			<p>My undergraduate degree was in Computer Science and Business, but I am constantly pushing myself to learn
 				new things. Most recently, I have been going through the Web Developer Boot Camp from Bloc to gain even
 				more experience with the latest web languages, frameworks, and libraries including HTML5, CSS,
-				JavaScript, and JQuery. When I'm not coding,
+				JavaScript, jQuery and ReactJS. When I'm not coding,
 				I'm often found riding my bike, reading a book or traveling the world.</p>
 			<p>You can learn more about me by exploring the following sections:</p>
 			<nav>
@@ -47,7 +47,7 @@
 					<li><a href="#TechnicalSkills">Technical Skills</a></li>
 				</ul>
 			</nav>
-		</div>
+		</section>
 	</header>
 	<main>
 		<section id="Portfolio" class="content-wrap">
@@ -80,182 +80,154 @@
 					initiative from the Internet Archive.</p>
 			</div>
 		</section>
-		<section>
-			<div id="Experience" class="content-wrap">
-				<h2>Experience</h2>
-				<div class="small-col">
-					<p class="dates">2017-2019</p>
-				</div>
-				<div class="small-col center-col">
-					<a href="http://www.scjohnson.com/" target="_blank"><img src="./images/SCJLogo.jpg" class="org-logo"
-							alt="SC Johnson & Son"></a>
-				</div>
+		<section id="Experience" class="content-wrap">
+			<h2>Experience</h2>
+			<div class="small-col">
+				<p class="dates">2017-2019</p>
+			</div>
+			<div class="small-col center-col">
+				<a href="http://www.scjohnson.com/" target="_blank"><img src="./images/SCJLogo.jpg" class="org-logo"
+						alt="SC Johnson & Son"></a>
+			</div>
 
-				<div class="large-col">
-					<h3>SC Johnson</h3>
-					<h4>Director of Global Learning & Development</h4>
+			<div class="large-col">
+				<h3>SC Johnson</h3>
+				<h4>Director of Global Learning & Development</h4>
 
-					<ul>
-						<li>Led a team of consultants, instructional designers and vendor partners in the design,
-							development, and implementation of learning solutions
-						</li>
-					</ul>
-					<h4>IT Learning & Development Manager</h4>
-					<ul>
-						<li>Consulted with internal subject matter experts and external vendors to execute vendor-led
-							training classes on Agile software development</li>
-						<li>Developed and maintained custom IT competency model</li>
-						<li>Facilitated classes on career development and communication</li>
-					</ul>
-				</div>
-				<div class="small-col">
-					<p class="dates">2011-2017</p>
-				</div>
-				<div class="small-col center-col">
-					<a href="http://www.target.com/" target="_blank"><img src="./images/TGTLogo.jpg" class="org-logo"
-							alt="Target"></a>
-				</div>
+				<ul>
+					<li>Led a team of consultants, instructional designers and vendor partners in the design,
+						development, and implementation of learning solutions
+					</li>
+				</ul>
+				<h4>IT Learning & Development Manager</h4>
+				<ul>
+					<li>Consulted with internal subject matter experts and external vendors to execute vendor-led
+						training classes on Agile software development</li>
+					<li>Developed and maintained custom IT competency model</li>
+					<li>Facilitated classes on career development and communication</li>
+				</ul>
+			</div>
+			<div class="small-col">
+				<p class="dates">2011-2017</p>
+			</div>
+			<div class="small-col center-col">
+				<a href="http://www.target.com/" target="_blank"><img src="./images/TGTLogo.jpg" class="org-logo"
+						alt="Target"></a>
+			</div>
 
-				<div class="large-col">
-					<h3>Target</h3>
-					<h4>Lead IT Learning & Development Consultant</h4>
-					<ul>
-						<li>Designed and developed an internal campaign to promote a stronger learning culture through
-							growth mindset, continuous learning and learning behaviors</li>
-						<li>Recorded over 50 short training videos and developed over 200 how-to articles on SharePoint
-							and mobile app functionality</li>
-						<li>Developed and facilitated instructor-led training courses on SharePoint</li>
-						<li>Consulted with internal subject matter experts and external vendors to execute vendor-led
-							training solutions related to software development, testing, and infrastructure component
-							management</li>
-					</ul>
-				</div>
-				<div class="small-col">
-					<p class="dates">2008-2011</p>
-				</div>
-				<div class="small-col center-col">
-					<a href="http://www.goodrich.com/" target="_blank"><img src="./images/GoodrichLogo.jpg"
-							class="org-logo" alt="Goodrich"></a>
-				</div>
+			<div class="large-col">
+				<h3>Target</h3>
+				<h4>Lead IT Learning & Development Consultant</h4>
+				<ul>
+					<li>Designed and developed an internal campaign to promote a stronger learning culture through
+						growth mindset, continuous learning and learning behaviors</li>
+					<li>Recorded over 50 short training videos and developed over 200 how-to articles on SharePoint
+						and mobile app functionality</li>
+					<li>Developed and facilitated instructor-led training courses on SharePoint</li>
+					<li>Consulted with internal subject matter experts and external vendors to execute vendor-led
+						training solutions related to software development, testing, and infrastructure component
+						management</li>
+				</ul>
+			</div>
+			<div class="small-col">
+				<p class="dates">2008-2011</p>
+			</div>
+			<div class="small-col center-col">
+				<a href="http://www.goodrich.com/" target="_blank"><img src="./images/GoodrichLogo.jpg" class="org-logo"
+						alt="Goodrich"></a>
+			</div>
 
-				<div class="large-col">
-					<h3>Goodrich</h3>
-					<h4>HRIS Analyst II</h4>
-					<ul>
-						<li>System administrator for multiple Human Resource information systems including the Human
-							Resource Management
-							System (HRMS), Talent Management System, Candidate Management System, Learning Management
-							System, and SharePoint</li>
-						<li>Developed custom HR reports using SQL scripts</li>
-						<li>Developed training materials for new Learning Management System for all roles including
-							administrator and end users</li>
-					</ul>
-				</div>
-				<div class="small-col">
-					<p class="dates">2005-2008</p>
-				</div>
-				<div class="small-col center-col">
-					<a href="http://www.accenture.com/" target="_blank"><img src="./images/ACNLogo.jpg" class="org-logo"
-							alt="Accenture"></a>
-				</div>
-				<div class="large-col">
-					<h3>Accenture</h3>
-					<h4>Consultant</h4>
-					<ul>
-						<li>Provided in-classroom technical support during system training delivery</li>
-						<li>Maintained system training environments by writing and executing SQL scripts</li>
-						<li>Wrote custom code for a claims management application based on design documents using Visual
-							Basic .NET and SQL</li>
-					</ul>
-				</div>
+			<div class="large-col">
+				<h3>Goodrich</h3>
+				<h4>HRIS Analyst II</h4>
+				<ul>
+					<li>System administrator for multiple Human Resource information systems including the Human
+						Resource Management
+						System (HRMS), Talent Management System, Candidate Management System, Learning Management
+						System, and SharePoint</li>
+					<li>Developed custom HR reports using SQL scripts</li>
+					<li>Developed training materials for new Learning Management System for all roles including
+						administrator and end users</li>
+				</ul>
+			</div>
+			<div class="small-col">
+				<p class="dates">2005-2008</p>
+			</div>
+			<div class="small-col center-col">
+				<a href="http://www.accenture.com/" target="_blank"><img src="./images/ACNLogo.jpg" class="org-logo"
+						alt="Accenture"></a>
+			</div>
+			<div class="large-col">
+				<h3>Accenture</h3>
+				<h4>Consultant</h4>
+				<ul>
+					<li>Provided in-classroom technical support during system training delivery</li>
+					<li>Maintained system training environments by writing and executing SQL scripts</li>
+					<li>Wrote custom code for a claims management application based on design documents using Visual
+						Basic .NET and SQL</li>
+				</ul>
 			</div>
 		</section>
-		<section>
-			<div id="Education" class="content-wrap">
-				<h2>Education</h2>
-				<div class="small-col">
-					<p class="dates">2019</p>
-				</div>
-				<div class="small-col center-col">
-					<a href="http://www.bloc.io/" target="_blank"><img src="./images/BlocLogo.jpg" class="org-logo"
-							alt="Bloc"></a>
-				</div>
-				<div class="large-col">
-					<h3>Bloc</h3>
-					<p>Web Developer Boot Camp</p>
-				</div>
-				<div class="small-col">
-					<p class="dates">2012-2013</p>
-				</div>
-				<div class="small-col center-col">
-					<a href="http://www.stthomas.edu/" target="_blank"><img src="./images/USTLogo.jpg" class="org-logo"
-							alt="University of St. Thomas"></a>
-				</div>
-				<div class="large-col">
-					<h3>University of St. Thomas</h3>
-					<p>Masters of Arts (MA) in Human Resource and Change
-						Leadership</p>
-				</div>
-				<div class="small-col">
-					<p class="dates">2000-2004</p>
-				</div>
-				<div class="small-col center-col">
-					<a href="http://www.bradley.edu/" target="_blank"><img src="./images/BULogo.jpg" class="org-logo"
-							alt="Bradley University"></a>
-				</div>
-				<div class="large-col">
-					<h3>Bradley University</h3>
-					<p>Bachelor of Science (BS) in Business Administration and Computer Science</p>
-				</div>
+		<section id="Education" class="content-wrap">
+			<h2>Education</h2>
+			<div class="small-col">
+				<p class="dates">2019</p>
+			</div>
+			<div class="small-col center-col">
+				<a href="http://www.bloc.io/" target="_blank"><img src="./images/BlocLogo.jpg" class="org-logo"
+						alt="Bloc"></a>
+			</div>
+			<div class="large-col">
+				<h3>Bloc</h3>
+				<p>Web Developer Boot Camp</p>
+			</div>
+			<div class="small-col">
+				<p class="dates">2012-2013</p>
+			</div>
+			<div class="small-col center-col">
+				<a href="http://www.stthomas.edu/" target="_blank"><img src="./images/USTLogo.jpg" class="org-logo"
+						alt="University of St. Thomas"></a>
+			</div>
+			<div class="large-col">
+				<h3>University of St. Thomas</h3>
+				<p>Masters of Arts (MA) in Human Resource and Change
+					Leadership</p>
+			</div>
+			<div class="small-col">
+				<p class="dates">2000-2004</p>
+			</div>
+			<div class="small-col center-col">
+				<a href="http://www.bradley.edu/" target="_blank"><img src="./images/BULogo.jpg" class="org-logo"
+						alt="Bradley University"></a>
+			</div>
+			<div class="large-col">
+				<h3>Bradley University</h3>
+				<p>Bachelor of Science (BS) in Business Administration and Computer Science</p>
 			</div>
 		</section>
-		<section id="TechnicalSkills">
-			<div class="content-no-wrap">
-				<h2>Technical Skills</h2>
-				<h3>Languages, Libraries & Frameworks</h3>
-				<a href="https://www.w3.org/TR/html/" target="_blank"><img src="./images/Badge-HTML5.png" alt="HTML5"
-						class="tech-badge"></a>
-				<a href="http://www.w3.org/TR/css3-roadmap" target="_blank"><img src="./images/Badge-CSS.png" alt="CSS3"
-						class="tech-badge"></a>
-				<img src="./images/Badge-JavaScript.png" alt="JavaScript" class="tech-badge">
-				<a href="https://jquery.com/" target="_blank"><img src="./images/Badge-jquery.png" alt="JQuery"
-						class="tech-badge"></a>
-				<a href="http://www.php.net/" target="_blank"><img src="./images/Badge-PHP.png" alt="PHP"
-						class="tech-badge"></a>
-				<img src="./images/Badge-SQL.png" alt="SQL" class="tech-badge">
-				<h3>Apps, Systems & Tools</h3>
-				<a href="https://products.office.com/en-us/word" target="_blank"><img src="./images/Badge-Word.png"
-						alt="Word" class="tech-badge"></a>
-				<a href="https://products.office.com/en-us/excel" target="_blank"><img src="./images/Badge-Excel.png"
-						alt="Excel" class="tech-badge"></a>
-				<a href="https://products.office.com/en-us/powerpoint" target="_blank"><img
-						src="./images/Badge-PowerPoint.png" alt="PowerPoint" class="tech-badge"></a>
-				<a href="https://products.office.com/en-us/onenote/digital-note-taking-app" target="_blank"><img
-						src="./images/Badge-OneNote.png" alt="OneNote" class="tech-badge"></a>
-				<a href="https://products.office.com/en-us/sharepoint/collaboration" target="_blank"><img
-						src="./images/Badge-SharePoint.png" alt="SharePoint" class="tech-badge"></a>
-				<a href="https://www.skype.com/en/" target="_blank"><img src="./images/Badge-Skype.png" alt="Skype"
-						class="tech-badge"></a>
-				<a href="https://evernote.com/" target="_blank"><img src="./images/Badge-Evernote.png" alt="Evernote"
-						class="tech-badge"></a>
-				<a href="http://www.wordpress.org/" target="_blank"><img src="./images/Badge-WordPress.png"
-						alt="WordPress" class="tech-badge"></a>
-				<a href="https://git-scm.com/" target="_blank"><img src="./images/Badge-Git.png" alt="Git"
-						class="tech-badge"></a>
-				<a href="https://www.github.com" target="_blank"><img src="./images/Badge-GitHub.png" alt="GitHub"
-						class="tech-badge"></a>
-				<a href="https://slack.com/" target="_blank"><img src="./images/Badge-Slack.png" alt="Slack"
-						class="tech-badge"></a>
-				<a href="https://code.visualstudio.com/" target="_blank"><img src="./images/Badge-VisualStudioCode.jpg"
-						alt="Visual Studio Code" class="tech-badge"></a>
-			</div>
+		<section id="TechnicalSkills" class="content-no-wrap">
+			<h2>Technical Skills</h2>
+			<h3>Languages, Libraries & Frameworks</h3>
+			<ul>
+				<li>HTML 5</li>
+				<li>CSS</li>
+				<li>JavaScript</li>
+				<li>jQuery</li>
+				<li>ReactJS</li>
+				<li>PHP</li>
+				<li>SQL</li>
+			</ul>
+			<h3>Apps, Systems & Tools</h3>
+			<ul>
+				<li>Microsoft Word, Excel, PowerPoint, OneNote, SharePoint, Skype</li>
+				<li>Evernote</li>
+				<li>WordPress</li>
+				<li>Git</li>
+				<li>GitHub</li>
+				<li>Slack</li>
+				<li>Visual Studio Code</li>
+			</ul>
 		</section>
-		<footer>
-			<div class="content-wrap">
-				<p>Copyright &copy; 2019, <a href="mailto:cecarlson@gmail.com">Christopher Carlson</a>. All Rights
-					Reserved.</p>
-			</div>
-		</footer>
 	</main>
 </body>
 
